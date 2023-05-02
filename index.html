@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1bb0aac300.js" crossorigin="anonymous"></script>
+    <title>Andrew Ndarwa</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!--<p>UI/UX Designer</p>-->
+                <h1>Hi,I'M <br>
+                     <span>Andrew</span> Kamae Ndarwa <br> From nairobi <br> iam a Designer</h1>
+                    <div class="img"><img src="images/codding.jpg" width="350" height="400"></div> 
+            </div>
+        </div>
+    </div>
+<!-----------------------------------------------header section ends---------------------------------------------->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/dp.webp" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Iam a continueing student at Meru University of Science and Technology
+                     with a bit of Graphics and Websites design skills.Iam currently looking For a place for 
+                     industrial attachment so as to enhance my skills in the computer engineering field.
+                </p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skils')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/Ux</span><br>Figma</li>
+                            <li><span>Web Development</span><br> HTML,CSS,JAVASCRIPT,PHP,SQL</li>
+                            <li><span>Graphics Design</span><br>Adobe Photoshop,Adobe illustrator</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-current</span><br>UI/UX Training at Meru university</li>
+                            <li><span>2019-2021</span><br> Team Leader at Python club MUST</li>
+                            <li><span>2017-2019</span><br>Student at Meru university</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2015</span><br>Compass Primary School</li>
+                            <li><span>2016</span><br> Lari Boys High School</li>
+                            <li><span>2020</span><br>Meru university</li>
+                        </ul>
+                     </div>
+            </div>
+        </div>
+    </div>
+  </div>
+<!----------------------------services---------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Web Design</h2>
+                <p>Iam a proffessonal web desgner with relevant skills required in this field.
+                    I do create personal Proffessional websites,E-commerse websites,institutional websites and
+                    any other type of website.
+                </p>
+                     <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>UI/UX Design</h2>
+                <p>I have rellevant skills required to design user interfaces for your system using Figma 
+
+                </p>
+                     <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Graphics Design</h2>
+                <p>I do proffessonal designing task such poster making,bunner making  and illustration tasks 
+                    using adobe photoshop and adobe illustrator </p>
+                     <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------------portfolio--------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/e-com.jpeg"  width="400" height="400">
+                <div class="layer">
+                    <h3>E-commerse website</h3>
+                    <p>An example of an E-commerse website where customer can order goods online</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/home2.png" width="400" height="400">
+                <div class="layer">
+                    <h3>An Advertising poster</h3>
+                    <p>a poster for property listed for sale</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ui.jpg" width="400" height="400">
+                <div class="layer">
+                    <h3>System UI design</h3>
+                    <p>User interface for An automatic irrigation system</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+
+    </div>
+</div>
+<!-------------------------contacts------------------------------------->
+
+<!----------my work starts-------->
+
+<div class="mywork">
+    
+    <div class="r1">
+
+        <div class="r11">
+            <img src="images/b1.png" alt="" width="300" height="300">
+            <h3>E-commerce web</h3>
+            <button><a href="#"></a>View Full web</button>
+        </div>
+        <div class="r11">
+            <img src="images/b2.png" alt="" width="300" height="300">
+            <h3>E-commerce web</h3>
+            <button><a href="#"></a>View Full web</button>
+        </div>
+        <div class="r11">
+            <img src="images/b3.png" alt="" width="300" height="300">
+            <h3>E-commerce web</h3>
+            <button><a href="#"></a>View Full web</button>
+        </div>
+
+        
+
+    </div>
+    
+
+    
+
+
+</div>
+
+
+<div class="mywork">
+    
+    <div class="r1">
+
+        <div class="r11">
+            <img src="images/b4.png" alt="" width="300" height="300">
+            <h3>Hotel web</h3>
+            <button><a href="#"></a>View Full web</button>
+        </div>
+        <div class="r11">
+            <img src="images/b5.png" alt="" width="300" height="300">
+            <h3>Car Shop web</h3>
+            <button><a href="#"></a>View Full web</button>
+        </div>
+        <div class="r11">
+            <img src="images/GUI.png" alt="" width="300" height="300">
+            <h3>Python GUI </h3>
+            <button><a href="images/Gui code.docx"></a>See Code</button>
+        </div>
+
+        
+
+    </div>
+    
+
+    
+
+
+</div>
+
+
+
+
+<!----------my work starts-------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="contacts">
+    <div class="container">
+        <div class="row">
+            <div class="contacts-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><a href=""><i class="fas fa-paper-plane"></i></a>kamaeandrew2020@gmail.com</p>
+                <p><a href=""><i class="fas fa-phone-square-alt"></i></a>+254715972915</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100090583729516"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/actual cv.docx" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contacts-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>created by <span>Engineer Andrew Ndarwa</span> | all rights reserved!</p>
+    </div>
+</div>
+
+<!---------------------------script1----------------------------->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+            
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<!--------------------------script2----------------------------------------->
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwEQYcajgoExkWMjZNjMZ__rBpARL1joa_8shDlZ9UoZsOdsl1rEzIKVRgv_monorRC/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
